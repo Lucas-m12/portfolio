@@ -1,18 +1,12 @@
-"use client";
-
+import Link from "next/link";
 import { Button } from "../Button";
 
 export const DownloadCV = () => {
-  const handleClickDownload = () => {
-    console.log("baixar cv")
-  }
-
   return (
-    <Button 
-      type="button" 
-      onClick={handleClickDownload} 
-    >
-      Download CV
-    </Button>
+    <Link href="/assets/cv.pdf" download="cv.pdf" target="_blank">
+      <Button type="button">
+        Download CV
+      </Button>
+    </Link>
   )
 }
