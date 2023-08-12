@@ -58,6 +58,15 @@ module.exports = {
     extend: {
       flex: {
         header: "1 0 0"
+      },
+      keyframes: {
+        hide: {
+          "from": {"opacity" : 1},
+          "to": {"opacity": 0}
+        }
+      },
+      animation: {
+        "hide": "hide 200ms ease-in"
       }
     },
   },

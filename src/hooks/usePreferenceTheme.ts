@@ -1,9 +1,13 @@
 "use client";
 
 export const usePreferenceTheme = () => {
-  const theme = window ? localStorage.getItem("theme") : "light";
+  let theme = "light";
+
+  if (typeof window !== "undefined") {
+    theme = localStorage.getItem("theme") || "light"
+  }
 
   return {
-    theme: theme || "light"
+    theme: theme
   }
 }

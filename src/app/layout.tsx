@@ -22,7 +22,11 @@ export default function RootLayout({
         type="image/<generated>"
         sizes="<generated>" 
       />
-      <body className={inter.className}>{children}</body>
+      <body 
+        className={`${inter.className} bg-gray-default dark:bg-gray-dark-default`}
+      >
+        {children}
+      </body>
     </html>
   )
 }
