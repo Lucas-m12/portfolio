@@ -3,9 +3,9 @@ import Image from "next/image"
 import Logo from "public/assets/icons/logo.svg"
 import { Divider } from "../Divider"
 import { DownloadCV } from "../DownloadCV"
+import { HamburguerMenu } from "../HamburguerMenu"
 import { Link } from "../Link"
 import { SwitchTheme } from "./SwitchTheme"
-import { HamburguerMenu } from "../HamburguerMenu"
 
 export const Header = () => {
   return (
@@ -23,6 +23,7 @@ export const Header = () => {
         dark:bg-gray-dark-default 
         mobile:py-4
         mobile:px-4
+        z-50
       `}
     >
       <section className="flex items-center justify-between px-8 flex-header mobile:px-0">

@@ -8,7 +8,7 @@ import { MainFooter } from "./components/MainFooter";
 export const Footer = () => {
   return (
     <footer 
-      className="flex py-24 px-20 flex-col items-center justify-center self-stretch text-gray-600 dark:text-gray-dark-600"
+      className="flex py-24 px-20 flex-col items-center justify-center self-stretch text-gray-600 dark:text-gray-dark-600 mobile:py-16 mobile:px-4"
     >
       <section 
         className="px-8 flex flex-col items-center justify-center gap-12 self-stretch"
@@ -39,7 +39,7 @@ export const Footer = () => {
         </MainFooter.Root>
         <div>
           <p 
-            className="text-base font-normal text-gray-600 dark:text-gray-dark-600 mb-2"
+            className="text-base font-normal text-gray-600 dark:text-gray-dark-600 mb-2 text-center"
           >
             Você também pode me encontrar nessas plataformas:
           </p>
