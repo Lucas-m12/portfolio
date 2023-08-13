@@ -41,6 +41,9 @@ export const metadata: Metadata = {
 	},
 	viewport: "width=device-width, initial-scale=1",
 	applicationName: "Lucas Marinho da Silva",
+	keywords: [
+		"Lucas Marinho da Silva", "Lucas", "Marinho", "Lucas Marinho", "portfolio", "desenvolvedor", "software", "sites", "sistemas", "react", "javascript", "typescript", "nest", "node", "next"
+	]
 };
 
 export default function RootLayout({
