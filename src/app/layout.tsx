@@ -19,25 +19,12 @@ export const metadata: Metadata = {
 				url: "https://lucasmarinhodasilva.com.br/assets/icons/logo.png",
 				width: 800,
 				height: 600,
+				alt: "Lucas Marinho da Silva",
 			}
 		],
 		title: "Lucas Marinho da Silva",
 	},
 	twitter: {
-
-		// app: {
-		// 	url: {
-		// 		iphone: "https://lucasmarinhodasilva.com.br",
-		// 		ipad: "https://lucasmarinhodasilva.com.br",
-		// 		googleplay: "https://lucasmarinhodasilva.com.br",
-		// 	},
-		// 	id: {
-		// 		iphone: "LUCASMARINHODASILVA",
-		// 		ipad: "LUCASMARINHODASILVA",
-		// 		googleplay: "LUCASMARINHODASILVA",
-		// 	},
-		// 	name: "Lucas Marinho da Silva",
-		// },
 		card: "summary_large_image",
 		creator: "@LucasMarinhod16",
 		title: "Lucas Marinho da Silva",
@@ -47,12 +34,13 @@ export const metadata: Metadata = {
 				url: "https://lucasmarinhodasilva.com.br/assets/icons/logo.png",
 				width: 800,
 				height: 600,
+				alt: "Lucas Marinho da Silva",
 			}
 		],
-		siteId: "LUCASMARINHODASILVA",
-		creatorId: "LUCASMARINHODASILVA",
 		site: "https://lucasmarinhodasilva.com.br"
-	}
+	},
+	viewport: "width=device-width, initial-scale=1",
+	applicationName: "Lucas Marinho da Silva",
 };
 
 export default function RootLayout({
