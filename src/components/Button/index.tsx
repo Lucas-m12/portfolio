@@ -1,8 +1,8 @@
 export const Button = ({ children, ...rest }: Props) => {
-  return (
-    <button 
-      {...rest} 
-      className={`
+	return (
+		<button 
+			{...rest} 
+			className={`
         inline-flex
         items-center
         justify-center
@@ -26,11 +26,11 @@ export const Button = ({ children, ...rest }: Props) => {
 
         mobile:w-full
       `}
-    >
-      { children }
-    </button>
-  )
-}
+		>
+			{ children }
+		</button>
+	);
+};
 
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children?: React.ReactNode;
