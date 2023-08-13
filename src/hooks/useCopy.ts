@@ -7,7 +7,7 @@ export const useCopy = () => {
 		await navigator.clipboard.writeText(text);
 		setIsCopied(true);
 		if (typeof navigator?.vibrate !== "undefined") {
-			navigator.vibrate(200);
+			navigator.vibrate([200, 100]);
 		}
 		setTimeout(() => {
 			setIsCopied(false);
