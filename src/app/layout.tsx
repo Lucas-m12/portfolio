@@ -11,12 +11,12 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "pt_BR",
-		url: "https://lucasmarinhodasilva.com.br",
+		url: "https://lucasmarinho.com.br",
 		siteName: "Lucas Marinho da Silva",
 		description: "Portfolio sobre Lucas Marinho da Silva",
 		images: [
 			{
-				url: "https://lucasmarinhodasilva.com.br/assets/icons/logo.png",
+				url: "https://lucasmarinho.com.br/assets/icons/logo.png",
 				width: 800,
 				height: 600,
 				alt: "Lucas Marinho da Silva",
@@ -31,13 +31,13 @@ export const metadata: Metadata = {
 		description: "Portfolio sobre Lucas Marinho da Silva",
 		images: [
 			{
-				url: "https://lucasmarinhodasilva.com.br/assets/icons/logo.png",
+				url: "https://lucasmarinho.com.br/assets/icons/logo.png",
 				width: 800,
 				height: 600,
 				alt: "Lucas Marinho da Silva",
 			}
 		],
-		site: "https://lucasmarinhodasilva.com.br"
+		site: "https://lucasmarinho.com.br"
 	},
 	viewport: "width=device-width, initial-scale=1",
 	applicationName: "Lucas Marinho da Silva",
