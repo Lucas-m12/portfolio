@@ -3,7 +3,10 @@ import { Tag } from "../Tag";
 
 export const About = () => {
 	return (
-		<section className="flex items-center justify-center flex-col self-stretch py-24 bg-gray-50 dark:bg-gray-dark-50">
+		<section
+			className="flex items-center justify-center flex-col self-stretch py-24 bg-gray-50 dark:bg-gray-dark-50"
+			id="sobre"
+		>
 			<div className="flex justify-between flex-col w-full items-center flex-header px-8 gap-12">
 				<Tag.Root>
 					<Tag.Text text="Sobre mim" />

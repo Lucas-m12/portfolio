@@ -24,7 +24,7 @@ export const Skills = () => {
 			className="flex items-center justify-center w-full"
 		>
 			<div
-				className="grid grid-cols-8 gap-y-12 gap-x-12"
+				className="grid grid-cols-8 gap-y-12 gap-x-12 mobile:grid-cols-4 tablet:grid-cols-6"
 			>
 				<Skill text="Javascript">
 					<Image
