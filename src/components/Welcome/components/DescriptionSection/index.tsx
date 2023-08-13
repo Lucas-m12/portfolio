@@ -1,4 +1,3 @@
-
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,20 +24,20 @@ export const DescriptionSection = () => {
 			</div>
 			<div className="flex flex-col justify-center items-start self-stretch gap-2">
 				<div className="flex items-center self-stretch gap-2">
-					<Image 
+					<Image
 						src={MarkIcon}
 						alt="Icone de marcação no mapa"
 						width={24}
 						height={24}
 					/>
-					<p 
+					<p
 						className="text-base font-normal text-gray-600 dark:text-gray-dark-600"
 					>
             Cajueiro-AL, Brasil
 					</p>
 				</div>
 				<div className="flex items-center self-stretch gap-2">
-					<Image 
+					<Image
 						src={DotEsmeraldIcon}
 						alt="Icone de ponto verde"
 						width={24}
@@ -56,6 +55,7 @@ export const DescriptionSection = () => {
 					<GitHubLogoIcon
 						width={24}
 						height={24}
+						fill=""
 					/>
 				</Link>
 				<Link href="https://www.linkedin.com/in/lucas-m12/" target="_blank">

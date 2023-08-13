@@ -1,5 +1,4 @@
 "use client";
-import { usePreferenceTheme } from "@/hooks/usePreferenceTheme";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { Cross1Icon, HamburgerMenuIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
@@ -8,27 +7,30 @@ import { SwitchTheme } from "../Header/SwitchTheme";
 import { Link } from "../Link";
 
 export const HamburguerMenu = () => {
-	const { theme } = usePreferenceTheme();
+
 	const [isMenuOpened, setIsMenuOpened] = useState(false);
 
+	const handleCloseMenu = () => {
+		setIsMenuOpened(false);
+	};
+
 	return (
-		<DropdownMenu.Root onOpenChange={() => setIsMenuOpened(prevValue => !prevValue)}>
-			<DropdownMenu.Trigger asChild className="hidden mobile:block">
-				<button>
-					{!isMenuOpened ? (
-						<HamburgerMenuIcon
-							width={24}
-							height={24}
-							color={theme === "light" ? "#4B5563" : "#D1D5DB"}
-						/>
-					) : (
-						<Cross1Icon
-							width={24}
-							height={24}
-							color={theme === "light" ? "#4B5563" : "#D1D5DB"}
-						/>
-					)}
-				</button>
+		<DropdownMenu.Root
+			onOpenChange={() => setIsMenuOpened(prevValue => !prevValue)}
+			open={isMenuOpened}
+		>
+			<DropdownMenu.Trigger id="trigger" className="hidden mobile:block text-gray-600 dark:text-gray-dark-600">
+				{!isMenuOpened ? (
+					<HamburgerMenuIcon
+						width={24}
+						height={24}
+					/>
+				) : (
+					<Cross1Icon
+						width={24}
+						height={24}
+					/>
+				)}
 			</DropdownMenu.Trigger>
 			<DropdownMenu.Portal>
 				<DropdownMenu.Content
@@ -39,16 +41,16 @@ export const HamburguerMenu = () => {
 						className="flex flex-col items-start self-stretch gap-4 p-4 border-b-[1px] border-solid border-gray-100 dark:border-gray-dark-100"
 					>
 						<DropdownMenu.Item>
-							<Link href="/#sobre">Sobre</Link>
+							<Link href="/#sobre" onClick={handleCloseMenu}>Sobre</Link>
 						</DropdownMenu.Item>
 						<DropdownMenu.Item>
-							<Link href="/#habilidades">Habilidades</Link>
+							<Link href="/#habilidades" onClick={handleCloseMenu}>Habilidades</Link>
 						</DropdownMenu.Item>
 						<DropdownMenu.Item>
-							<Link href="/#experiencias">Experiências</Link>
+							<Link href="/#experiencias" onClick={handleCloseMenu}>Experiências</Link>
 						</DropdownMenu.Item>
 						<DropdownMenu.Item>
-							<Link href="/#contato">Contato</Link>
+							<Link href="/#contato" onClick={handleCloseMenu}>Contato</Link>
 						</DropdownMenu.Item>
 					</DropdownMenu.Group>
 					<DropdownMenu.Group
