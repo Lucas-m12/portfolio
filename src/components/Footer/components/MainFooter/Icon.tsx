@@ -3,7 +3,6 @@
 import { Toast } from "@/components/Toast";
 import { useCopy } from "@/hooks/useCopy";
 
-
 export const MainFooterIcon = ({ children, textCopy }: Props) => {
 	const { isCopied, copy } = useCopy();
 
@@ -14,7 +13,7 @@ export const MainFooterIcon = ({ children, textCopy }: Props) => {
 
 	return (
 		<>
-			<div 
+			<div
 				className={typeof textCopy !== "undefined" ? "cursor-pointer" : "cursor-default"}
 				onClick={handleClickIcon}
 			>

@@ -16,26 +16,26 @@ export const HamburguerMenu = () => {
 			<DropdownMenu.Trigger asChild className="hidden mobile:block">
 				<button>
 					{!isMenuOpened ? (
-						<HamburgerMenuIcon 
-							width={24} 
-							height={24} 
-							color={theme === "light" ? "#4B5563" : "#D1D5DB"} 
+						<HamburgerMenuIcon
+							width={24}
+							height={24}
+							color={theme === "light" ? "#4B5563" : "#D1D5DB"}
 						/>
 					) : (
-						<Cross1Icon 
-							width={24} 
-							height={24} 
-							color={theme === "light" ? "#4B5563" : "#D1D5DB"} 
+						<Cross1Icon
+							width={24}
+							height={24}
+							color={theme === "light" ? "#4B5563" : "#D1D5DB"}
 						/>
 					)}
 				</button>
 			</DropdownMenu.Trigger>
 			<DropdownMenu.Portal>
-				<DropdownMenu.Content 
-					sideOffset={6} 
-					className="w-screen h-screen bg-gray-default dark:bg-gray-dark-default"
+				<DropdownMenu.Content
+					sideOffset={6}
+					className="w-screen h-screen bg-gray-default dark:bg-gray-dark-default z-50 my-4"
 				>
-					<DropdownMenu.Group 
+					<DropdownMenu.Group
 						className="flex flex-col items-start self-stretch gap-4 p-4 border-b-[1px] border-solid border-gray-100 dark:border-gray-dark-100"
 					>
 						<DropdownMenu.Item>

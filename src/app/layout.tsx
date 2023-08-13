@@ -49,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
 	return (
-		<html lang="en">
+		<html lang="pt-BR">
 			<link
 				rel="icon"
 				href="/assets/icons/logo.svg"
