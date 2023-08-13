@@ -42,13 +42,13 @@ export const HamburguerMenu = () => {
 							<Link href="/#sobre">Sobre</Link>
 						</DropdownMenu.Item>
 						<DropdownMenu.Item>
-							<Link href="/#projetos">Projetos</Link>
+							<Link href="/#habilidades">Habilidades</Link>
+						</DropdownMenu.Item>
+						<DropdownMenu.Item>
+							<Link href="/#experiencias">Experiências</Link>
 						</DropdownMenu.Item>
 						<DropdownMenu.Item>
 							<Link href="/#contato">Contato</Link>
-						</DropdownMenu.Item>
-						<DropdownMenu.Item>
-							<Link href="/#blog">Blog</Link>
 						</DropdownMenu.Item>
 					</DropdownMenu.Group>
 					<DropdownMenu.Group
