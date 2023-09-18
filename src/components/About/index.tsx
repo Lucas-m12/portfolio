@@ -7,20 +7,20 @@ export const About = () => {
 			className="flex items-center justify-center flex-col self-stretch py-24 bg-gray-50 dark:bg-gray-dark-50"
 			id="sobre"
 		>
-			<div className="flex justify-between flex-col w-full items-center flex-header px-8 gap-12">
+			<div className="flex justify-between flex-col w-full max-w-[1024px] items-center flex-header gap-12 mobile:px-5">
 				<Tag.Root>
 					<Tag.Text text="Sobre mim" />
 				</Tag.Root>
-				<section className="flex justify-center items-start self-stretch flex-wrap gap-12">
-					<section className="">
+				<section className="flex items-start self-stretch flex-wrap gap-12">
+					<section className="mobile:mx-auto">
 						<div
-							className="border-8 w-[400px] h-[480px] border-gray-default dark:border-gray-dark-default bg-no-repeat bg-cover"
+							className="border-8 w-[300px] h-[380px] border-gray-default dark:border-gray-dark-default bg-no-repeat bg-cover"
 							style={{
 								backgroundImage: `url(${LucasImage.src})`
 							}}
 						/>
 					</section>
-					<section className="flex flex-col items-start self-stretch gap-4 max-w-[48rem]">
+					<section className="flex flex-col items-start self-stretch gap-4 max-w-[42rem]">
 						<h2
 							className="text-gray-900 dark:text-gray-dark-900 text-3xl font-semibold -tracking-wide"
 						>
