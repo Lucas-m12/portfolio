@@ -21,7 +21,7 @@ import { Skill } from "./skill";
 export const Skills = () => {
 	return (
 		<section
-			className="flex items-center justify-center w-full"
+			className="flex items-center justify-center w-full mx-auto max-w-[1024px]"
 		>
 			<div
 				className="grid grid-cols-8 gap-y-12 gap-x-12 mobile:grid-cols-3 tablet:grid-cols-4"
