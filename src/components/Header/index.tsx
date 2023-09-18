@@ -40,6 +40,7 @@ export const Header = () => {
 					<Link href="/#habilidades">Habilidades</Link>
 					<Link href="/#experiencias">Experiências</Link>
 					<Link href="/#contato">Contato</Link>
+					<Link href="/setup">Setup</Link>
 					<Divider orientation="vertical" />
 					<SwitchTheme />
 					<DownloadCV />
