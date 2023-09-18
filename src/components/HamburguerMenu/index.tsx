@@ -38,7 +38,7 @@ export const HamburguerMenu = () => {
 					className="w-screen h-screen bg-gray-default dark:bg-gray-dark-default z-50 my-4"
 				>
 					<DropdownMenu.Group
-						className="flex flex-col items-start self-stretch gap-4 p-4 border-b-[1px] border-solid border-gray-100 dark:border-gray-dark-100"
+						className="flex flex-col items-start self-stretch gap-4 p-5 border-b-[1px] border-solid border-gray-100 dark:border-gray-dark-100"
 					>
 						<DropdownMenu.Item>
 							<Link href="/#sobre" onClick={handleCloseMenu}>Sobre</Link>
