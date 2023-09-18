@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { SetupGrid } from "@/components/SetupGrid";
 
@@ -18,6 +19,7 @@ export default async function SetupPage() {
 				</section>
 			</main>
 			<SetupGrid />
+			<Footer />
 		</>
 	);
 }

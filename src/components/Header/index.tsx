@@ -10,7 +10,7 @@ import { SwitchTheme } from "./SwitchTheme";
 export const Header = () => {
 	return (
 		<header
-			className="h-[68px] py-4 fixed w-full bg-gray-default dark:bg-gray-dark-default z-50"
+			className="h-[68px] py-2 fixed w-full bg-gray-default dark:bg-gray-dark-default z-50"
 		>
 			<section className="flex items-center justify-between flex-header max-w-[1024px] mx-auto w-full mobile:px-5">
 				<Link href="/#inicio" passHref>

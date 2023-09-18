@@ -9,24 +9,26 @@ export const Welcome = () => {
 
 	return (
 		<section
-			className="
-        flex items-start justify-center px-8 gap-12 flex-wrap flex-header mobile:py-16 mobile:px-4
-      "
+			className="py-10"
 			id="inicio"
 		>
-			{
-				isMobile ? (
-					<>
-						<LogoSection />
-						<DescriptionSection />
-					</>
-				) : (
-					<>
-						<DescriptionSection />
-						<LogoSection />
-					</>
-				)
-			}
+			<section
+				className="flex gap-12 flex-wrap flex-header mobile:py-16 mobile:px-4 max-w-[1024px] mx-auto"
+			>
+				{
+					isMobile ? (
+						<>
+							<LogoSection />
+							<DescriptionSection />
+						</>
+					) : (
+						<>
+							<DescriptionSection />
+							<LogoSection />
+						</>
+					)
+				}
+			</section>
 		</section>
 	);
 };
