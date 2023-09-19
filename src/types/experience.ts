@@ -1,10 +1,8 @@
+import { Image } from "./image";
+
 export interface Experience {
 	id: string;
-	logo: {
-		url: string;
-		alt: string;
-		blurUpThumb: string;
-	};
+	logo: Image;
 	title: string;
 	startdate: string;
 	enddate: string;

@@ -4,7 +4,7 @@ import { forwardRef } from "react";
 export const DownloadCV = forwardRef<HTMLAnchorElement>((_, ref) => {
 	return (
 		<Link
-			href="/assets/cv.pdf"
+			href="https://www.datocms-assets.com/106500/1695087660-cv.pdf"
 			download="cv.pdf"
 			target="_blank"
 			className={
