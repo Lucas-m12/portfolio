@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Lucas Marinho da Silva",
-	description: "Portfolio sobre Lucas Marinho da Silva",
+	title: "Lucas Marinho da Silva | Dev Web",
+	description: "Desenvolvedor Web ",
 	openGraph: {
 		type: "website",
 		locale: "pt_BR",

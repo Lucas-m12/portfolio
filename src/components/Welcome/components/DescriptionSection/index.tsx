@@ -8,18 +8,18 @@ import MarkIcon from "public/assets/icons/mark.svg";
 export const DescriptionSection = () => {
 	return (
 		<section
-			className="flex flex-col justify-center items-start max-w-[48rem] gap-12 self-stretch"
+			className="flex flex-col justify-center items-start max-w-[40rem] gap-12 self-stretch mobile:items-center"
 		>
 			<div className="gap-2">
 				<h1
 					className="text-6xl leading-[4.5rem] desktop:-tracking-wider font-bold text-gray-900 dark:text-gray-dark-900 mobile:text-4xl mobile:font-semibold"
 				>
-          Olá, meu nome é Lucas! 👋🏼
+          Olá, eu sou Lucas! 👋🏼
 				</h1>
 				<p
 					className="text-gray-600 dark:text-gray-dark-600 text-base font-normal"
 				>
-          Eu sou engenheiro de software (full-stack) com experiência maior em Front-end, mas altamente apaixonado pelo Back-end e que busca através do software resolver todos os desafios propostos, não apenas focando no código, mas entendo toda a complexidade do negócio.
+          Engenheiro de software (full-stack) com experiência maior em Front-end, mas altamente apaixonado pelo Back-end e que busca através do software resolver todos os desafios propostos, não apenas focando no código, mas entendo toda a complexidade do negócio.
 				</p>
 			</div>
 			<div className="flex flex-col justify-center items-start self-stretch gap-2">

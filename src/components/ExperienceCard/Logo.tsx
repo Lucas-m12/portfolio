@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export const ExperienceCardLogo = ({ url, alt }: Props) => {
+export const ExperienceCardLogo = ({ url, alt, blurUrl }: Props) => {
 	return (
 		<div>
 			<Image
@@ -9,6 +9,7 @@ export const ExperienceCardLogo = ({ url, alt }: Props) => {
 				width={200}
 				height={200}
 				style={{ width: 200, height: 135 }}
+				blurDataURL={blurUrl}
 			/>
 		</div>
 	);
@@ -17,4 +18,5 @@ export const ExperienceCardLogo = ({ url, alt }: Props) => {
 interface Props {
 	url: string;
 	alt: string;
+	blurUrl?: string;
 }
