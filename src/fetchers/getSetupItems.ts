@@ -25,7 +25,8 @@ export const getSetupItems = async () => {
 		method: "POST",
 		headers: {
 			Authorization: `Bearer ${cmsToken}`
-		}
+		},
+		next: { tags: ["setup", "all"] }
 	});
 	const data = await response.json() as { data: { items: SetupItem[] } };
 	if (!response.ok) {

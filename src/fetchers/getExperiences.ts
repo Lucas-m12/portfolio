@@ -26,7 +26,8 @@ export const getExperiences = async () => {
 		method: "POST",
 		headers: {
 			Authorization: `Bearer ${cmsToken}`
-		}
+		},
+		next: { tags: ["experiences", "all"] }
 	});
 	const data = await response.json() as { data: { experiences: Experience[] } };
 	if (!response.ok) {
