@@ -6,6 +6,10 @@ const nextConfig = {
 			"github.com",
 			"www.datocms-assets.com"
 		],
+	},
+	i18n: {
+		locales: ["en-US", "pt-BR"],
+		defaultLocale: "pt-BR",
 	}
 };
 
