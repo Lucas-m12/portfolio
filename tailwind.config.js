@@ -71,7 +71,10 @@ module.exports = {
 			},
 			animation: {
 				"hide": "hide 200ms ease-in"
-			}
+			},
+			fontFamily: {
+				base: ["var(--font-space-grotesk) ", "sans-serif"],
+			},
 		},
 	},
 	plugins: [],

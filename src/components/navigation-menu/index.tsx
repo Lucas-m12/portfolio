@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const NavigationMenu = () => {
 	return (
-		<PrimitiveMenu.Root className="h-[90px] bg-dark flex items-center justify-center px-8 rounded-b-3xl fixed top-0">
+		<PrimitiveMenu.Root className="h-[90px] bg-dark flex items-center justify-center px-8 rounded-b-3xl">
 			<PrimitiveMenu.List className="flex items-center gap-28 text-writing text-xl font-bold">
 				<PrimitiveMenu.Item>
 					<PrimitiveMenu.Link asChild>
