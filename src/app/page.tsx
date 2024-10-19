@@ -5,6 +5,8 @@ export default function Home() {
 	return (
 		<section className="flex flex-col items-center justify-center font-base">
 			<NavigationMenu />
+			<div className="first-elipse" />
+			<div className="second-elipse" />
 			<HomeSection />
 		</section>
 	);

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const HomeSection = () => {
 	return (
-		<section className="flex flex-col items-center justify-center min-h-[230px] mt-48 ">
+		<section className="flex flex-col items-center justify-center min-h-[230px] mt-48" id="home-section">
 			<h1 className="text-writing text-8xl font-bold -tracking-wider text-shadow">
 				Olá, eu sou o <strong className="text-shadow-none">Lucas!</strong>
 			</h1>
@@ -35,6 +35,18 @@ export const HomeSection = () => {
 				</Link>
 				<Link href="#">
 					<LinkedInLogoIcon width={30} height={30} color="#FFF" />
+				</Link>
+			</div>
+
+			<div className="mt-40">
+				<Link href="#about">
+					<Image
+						src={"/assets/icons/chevron-down.svg"}
+						alt="Chevron Down"
+						width={47}
+						height={23}
+						className="animate-bounce"
+					/>
 				</Link>
 			</div>
 		</section>
