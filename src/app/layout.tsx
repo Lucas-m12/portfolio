@@ -60,7 +60,7 @@ export default function RootLayout({
 				sizes="<generated>"
 			/>
 			<body
-				className={`${spaceGrotesk.variable} bg-[#121212]`}
+				className={`${spaceGrotesk.variable} bg-black`}
 			>
 				{children}
 				<Analytics />

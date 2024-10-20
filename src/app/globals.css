@@ -32,7 +32,7 @@
 		background: conic-gradient(from 180deg at 50% 50%, #01F1A7 0deg, #151442 180deg, #102487 360deg);
 		filter: blur(150px);
 
-		z-index: -99;
+		z-index: 12;
 	}
 
 	.lc-second-elipse {
@@ -51,7 +51,7 @@
 		background: conic-gradient(from 180deg at 50% 50%, #01F1A7 0deg, #151442 180deg, #102487 360deg);
 		filter: blur(150px);
 
-		z-index: -99;
+		z-index: 12;
 	}
 }
 
