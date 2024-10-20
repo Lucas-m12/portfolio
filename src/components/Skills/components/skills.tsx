@@ -7,10 +7,10 @@ export const Skills = async () => {
 	const skills = await getSkills();
 	return (
 		<section
-			className="flex items-center justify-center w-full mx-auto max-w-[1024px]"
+			className="flex items-center justify-center w-full max-w-[1024px]"
 		>
 			<div
-				className="grid grid-cols-8 gap-y-12 gap-x-12 mobile:grid-cols-3 tablet:grid-cols-4"
+				className="grid grid-cols-7 gap-y-16 gap-x-12 mobile:grid-cols-2 tablet:grid-cols-3"
 			>
 				{
 					skills.map(skill => (

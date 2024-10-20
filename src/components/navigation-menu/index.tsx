@@ -8,17 +8,17 @@ export const NavigationMenu = () => {
 			<PrimitiveMenu.List className="flex items-center gap-28 text-writing text-xl font-bold">
 				<PrimitiveMenu.Item>
 					<PrimitiveMenu.Link asChild>
-						<Link href="#" className="hover:underline transition-all hover:text-writing/70">Início</Link>
+						<Link href="#inicio" className="hover:underline transition-all hover:text-writing/70">Início</Link>
 					</PrimitiveMenu.Link>
 				</PrimitiveMenu.Item>
 				<PrimitiveMenu.Item>
 					<PrimitiveMenu.Link asChild>
-						<Link href="#" className="hover:underline transition-all hover:text-writing/70">Sobre</Link>
+						<Link href="#sobre" className="hover:underline transition-all hover:text-writing/70">Sobre</Link>
 					</PrimitiveMenu.Link>
 				</PrimitiveMenu.Item>
 				<PrimitiveMenu.Item>
 					<PrimitiveMenu.Link asChild>
-						<Link href="#" className="hover:underline transition-all hover:text-writing/70">Habilidades</Link>
+						<Link href="#habilidades" className="hover:underline transition-all hover:text-writing/70">Habilidades</Link>
 					</PrimitiveMenu.Link>
 				</PrimitiveMenu.Item>
 				<PrimitiveMenu.Item>

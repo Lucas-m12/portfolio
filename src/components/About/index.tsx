@@ -4,8 +4,8 @@ import { Subtract } from "../subtract";
 export const AboutSection = () => {
 	return (
 		<section
-			className=""
-			id="about"
+			className="mb-96"
+			id="sobre"
 		>
 			<div className="flex justify-evenly max-w-[1300px] max-h-[840px] text-white gap-16">
 				<section>

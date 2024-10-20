@@ -1,6 +1,7 @@
 import { AboutSection } from "@/components/about";
 import { HomeSection } from "@/components/home";
 import { NavigationMenu } from "@/components/navigation-menu";
+import { SkillsSection } from "@/components/Skills";
 
 export default function Home() {
 	return (
@@ -10,6 +11,9 @@ export default function Home() {
 			<div className="second-elipse" />
 			<HomeSection />
 			<AboutSection />
+			<SkillsSection />
+			<div className="third-elipse" />
+			<div className="fourth-elipse" />
 		</section>
 	);
 }

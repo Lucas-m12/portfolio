@@ -53,6 +53,44 @@
 
 		z-index: 12;
 	}
+
+	.lc-third-elipse {
+		width: 800px;
+		height: 800px;
+		transform: rotate(4.828deg);
+		flex-shrink: 0;
+
+		position: absolute;
+
+		top: 2122px;
+		left: -592.67px;
+
+		border-radius: 800px;
+
+		background: conic-gradient(from 180deg at 50% 50%, #01F1A7 0deg, #151442 180deg, #102487 360deg);
+		filter: blur(150px);
+
+		z-index: 12;
+	}
+
+	.lc-fourth-elipse {
+		width: 800px;
+		height: 800px;
+		transform: rotate(49.328deg);
+		flex-shrink: 0;
+
+		position: absolute;
+
+		top: 1635px;
+		left: 1487.33px;
+
+		border-radius: 657px;
+
+		background: conic-gradient(from 180deg at 50% 50%, #01F1A7 0deg, #151442 180deg, #102487 360deg);
+		filter: blur(150px);
+
+		z-index: 12;
+	}
 }
 
 .text-shadow{
@@ -68,4 +106,12 @@
 
 .second-elipse {
 	@apply lc-second-elipse;
+}
+
+.third-elipse {
+	@apply lc-third-elipse;
+}
+
+.fourth-elipse {
+	@apply lc-fourth-elipse;
 }
