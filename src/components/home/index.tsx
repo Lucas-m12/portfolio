@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const HomeSection = () => {
 	return (
-		<section className="flex flex-col items-center justify-center min-h-screen mt-20 z-10" id="inicio">
+		<section className="flex flex-col items-center justify-center min-h-screen mt-20 z-20" id="inicio">
 			<h1 className="text-writing text-8xl font-bold -tracking-wider text-shadow">
 				Olá, eu sou o <strong className="text-shadow-none">Lucas!</strong>
 			</h1>
